@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XtractQuery": {
+      "commandName": "Project",
+      "commandLineArgs": "-o d -f D:\\Users\\Kirito\\Desktop\\mwv\\17040080.mwv.wav.mwv"
+    }
+  }
+}

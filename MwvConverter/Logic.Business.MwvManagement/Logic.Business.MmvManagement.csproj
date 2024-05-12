@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<RootNamespace>Logic.Business.MwvManagement</RootNamespace>
+	<AssemblyName>Logic.Business.MwvManagement</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.MwvManagement.Contract\Logic.Business.MwvManagement.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Domain.WavManagement.Contract\Logic.Domain.WavManagement.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
